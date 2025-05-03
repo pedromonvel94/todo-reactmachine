@@ -1,0 +1,25 @@
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.inputs{
+    height: 30px;
+    border-radius: 8px;
+    background-color: #cfcfcf;
+    border: 1px solid white;
+    padding: 0 8px 0 8px;
+    color: black;
+    box-shadow: inset #7b7b7b 0px 0px 5px;
+}  
+
+.input-icon {
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 19px;
+    right: 20%;
+    transform: translateY(-50%);
+    transition: transform 0.25s;
+}
